@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css" >
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Special+Elite" rel="stylesheet" />
+    <title>Matts Form</title>
+  </head>
+  <body>
+    <h1>The Code Review</h1>
+    <div class="content">
+
+
+    <form action="index.html" method="post">
+
+  <div class="heading-text">
+      <h2>Signup for our newsletter</h2>
+      <p>
+        Get the latest how your code is doing right in your inbox
+      </p>
+  </div>
+  <div class="border-line">
+
+  </div>
+  <div class="border-line-two">
+
+  </div>
+  <!-- top half of form -->
+        <fieldset class="field-one">
+        <legend>Contact Infomation</legend>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="user_name" placeholder="  required"><br />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="user_name" placeholder="  required"><br />
+        <label for="number">Contact Number</label>
+        <input type="number" id="number" name="phone"><br />
+        <label for="street">Street Address</label>
+        <input type="text" id="street" name="user_street" ><br />
+        <label for="city">City</label>
+        <input type="text" id="city" name="user_city" ><br />
+
+          <label for="province">Province</label>
+        <select id="province" name="user_province">
+          <option value="" disabled selected>Select your province</option>
+          <option value="East Yorkshire">East Yorkshire</option>
+          <option value="North Yorkshire">East Yorkshire</option>
+          <option value="South Yorkshire">East Yorkshire</option>
+          <option value="West Yorkshire">East Yorkshire</option>
+          <option value="Lincolnshire">Lincolnshire</option>
+          <option value="Tyne and Wear">Tyne and Wear</option>
+        </select>
+
+        <label for="postcode">Zip Code</label>
+        <input type="text" id="postcode" name="user_postcode" placeholder="  required">
+
+      </fieldset>
+    <div class="border-line-three">
+
+    </div>
+
+    <!-- bottom half of form -->
+      <fieldset class="field-two">
+        <legend>The Newsletter</legend>
+
+        <label >Select the Newsletter you would like to recieve</label><br>
+        <input type="checkbox" id="hyper" name="news_hyper" value="user_hyper">
+        <label class="light" for="hyper">HTML NEWS</label><br>
+        <input type="checkbox" id="css" name="news_css" value="user_css">
+        <label class="light" for="css">CSS NEWS</label><br>
+        <input type="checkbox" id="javascript" name="news_javascript" value="user_javascript">
+        <label class="light" for="javascript">JAVASCRIPT NEWS</label><br>
+        <p>Newsletter format  </p>
+        <input type="radio" id="format_html" value="format_html" name="user_html">
+        <label for="format_html" class="light">HTML</label><br>
+        <input type="radio" id="format_text" value="format_text" name="user_text">
+        <label for="format_text" class="light">Plain text</label><br /><br />
+        <label for="other">Other topics you'd like to hear about.</label><br />
+        <textarea id="other" name="user-other"></textarea>
+
+      </fieldset>
+
+        <button type="submit">Sign Up</button>
+
+        <footer>Copyright Matt Christiansen</footer>
+    </form>
+    </div>
+  </body>
+</html>
