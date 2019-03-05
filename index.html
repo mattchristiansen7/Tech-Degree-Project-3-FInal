@@ -10,31 +10,26 @@
   </head>
   <body>
     <h1>The Code Review</h1>
+
+    <div class="heading-text">
+        <h2>Signup for our newsletter</h2>
+        <p>
+          Get the latest how your code is doing right in your inbox
+        </p>
+    </div>
     <div class="content">
 
 
     <form action="index.html" method="post">
 
-  <div class="heading-text">
-      <h2>Signup for our newsletter</h2>
-      <p>
-        Get the latest how your code is doing right in your inbox
-      </p>
-  </div>
-  <div class="border-line">
-
-  </div>
-  <div class="border-line-two">
-
-  </div>
   <!-- top half of form -->
         <fieldset class="field-one">
         <legend>Contact Infomation</legend>
 
         <label for="name">Name</label>
-        <input type="text" id="name" name="user_name" placeholder="  required"><br />
+        <input type="text" id="name" name="user_name" placeholder=" required"><br />
         <label for="email">Email</label>
-        <input type="email" id="email" name="user_name" placeholder="  required"><br />
+        <input type="email" id="email" name="user_name" placeholder="required"><br />
         <label for="number">Contact Number</label>
         <input type="number" id="number" name="phone"><br />
         <label for="street">Street Address</label>
@@ -54,7 +49,7 @@
         </select>
 
         <label for="postcode">Zip Code</label>
-        <input type="text" id="postcode" name="user_postcode" placeholder="  required">
+        <input type="text" id="postcode" name="user_postcode" placeholder="required">
 
       </fieldset>
     <div class="border-line-three">
@@ -73,9 +68,9 @@
         <input type="checkbox" id="javascript" name="news_javascript" value="user_javascript">
         <label class="light" for="javascript">JAVASCRIPT NEWS</label><br>
         <p>Newsletter format  </p>
-        <input type="radio" id="format_html" value="format_html" name="user_html">
+        <input type="radio" id="format_html" value="format_html" name="user_pref">
         <label for="format_html" class="light">HTML</label><br>
-        <input type="radio" id="format_text" value="format_text" name="user_text">
+        <input type="radio" id="format_text" value="format_text" name="user_pref">
         <label for="format_text" class="light">Plain text</label><br /><br />
         <label for="other">Other topics you'd like to hear about.</label><br />
         <textarea id="other" name="user-other"></textarea>

@@ -6,14 +6,15 @@ font-family:'Gloria Hallelujah', cursive;
 /* start of form*/
 form {
   width: 300px;
-  margin: auto;
-  padding:10px 10px 10px 10px;
+  margin: 0;
+  padding:10px 0 10px 0;
   background: white;
   border-radius: 8px;
 }
 .content {
-  width: 320px;
-  margin: auto;
+  border-top:2px solid #2d3945;
+  width: 295px;
+  margin: 2px auto;
 }
 h1 {
   display:block;
@@ -32,7 +33,10 @@ h2 {
 
 .heading-text p {
 text-align: center;
+width:295px;
+margin:auto;
 padding-bottom: 15px;
+border-bottom:5px solid #2d3945;
 
 }
 
@@ -63,19 +67,11 @@ padding-bottom: 15px;
   background-color: #eff0f1;
 }
 
-
-.border-line {
-  margin: 0;
-  width:295px;
-  border-top:5px solid #2d3945;
+.field-one input:focus {
+  background:darkgrey;
 
 }
-.border-line-two {
-  margin: 2px 0 15px 0;
-  width:295px;
-  border-top:2px solid #2d3945;
 
-}
 .border-line-three {
   width:295px;
   border-top:2px solid #2d3945;
@@ -122,8 +118,8 @@ select {
   background-color: #eff0f1;
 }
 fieldset {
+  border:0;
 padding:8px 0 8px 0;
-border: 0;
 margin:auto;
 }
 
@@ -142,6 +138,10 @@ width:525px;
 }
 
 form {
+  width:525px;
+}
+
+.heading-text p {
   width:525px;
 }
 
@@ -167,8 +167,7 @@ form {
   font-size: 0.8em;
 }
 
-.border-line,
-.border-line-two,
+
 .border-line-three {
   width:525px;
 }
